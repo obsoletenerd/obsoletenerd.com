@@ -1,0 +1,14 @@
+[project]
+name = "obsoletenerd-com"
+version = "0.1.0"
+description = "ObsoleteNerd.com"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pelican[markdown]>=4.11.0",
+]
+
+[project.optional-dependencies]
+markdown = [
+    "pelican>=4.11.0",
+]

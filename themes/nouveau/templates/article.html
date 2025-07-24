@@ -1,0 +1,56 @@
+{% extends "base.html" %} {% block html_lang %}{{ article.lang }}{% endblock %}
+{% block title %}{{ SITENAME|striptags }} - {{ article.title|striptags }}{%
+endblock %} {% block head %} {{ super() }} {% import 'translations.html' as
+translations with context %} {% if translations.entry_hreflang(article) %} {{
+translations.entry_hreflang(article) }} {% endif %} {% if article.description %}
+<meta name="description" content="{{article.description}}" />
+{% endif %} {% for tag in article.tags %}
+<meta name="tags" content="{{tag}}" />
+{% endfor %}
+<style>
+    pre,
+    code {
+        background-color: #b0b0b0;
+        color: #002200;
+        font-family: monospace;
+    }
+    div.highlight > pre {
+        padding: 5px;
+    }
+    p > code {
+        padding: 5px;
+    }
+</style>
+{% endblock %} {% block content %}
+<article>
+    <header>
+        <h2>
+            <a
+                href="{{ SITEURL }}/{{ article.url }}"
+                rel="bookmark"
+                title="Permalink to {{ article.title|striptags }}"
+                >{{ article.title }}</a
+            >
+        </h2>
+        {% import 'translations.html' as translations with context %} {{
+        translations.translations_for(article) }}
+    </header>
+    {{ article.content }}
+
+    <em
+        >Posted on
+        <time datetime="{{ article.date.isoformat() }}"
+            >{{ article.locale_date }}</time
+        >
+        {% if article.modified %}(Lasted Updated:
+        <time datetime="{{ article.modified.isoformat() }}"
+            >{{ article.locale_modified }}</time
+        >){% endif %}{% if article.category %} in
+        <a href="{{ SITEURL }}/{{ article.category.url }}"
+            >{{ article.category }}</a
+        >{% endif %}{% if article.tags %} with the tags: {% for tag in
+        article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> {%
+        endfor %}{% endif %}</em
+    >
+</article>
+{% endblock %}
