@@ -8,7 +8,14 @@ Tags: Software, Projects
 Status: Published
 ---
 
-This post will evolve into more of a tutorial/guide later. For now it is a dumping ground for my notes as I build out the site.
+This post will evolve into more of a tutorial/guide later. For now it is a dumping ground for my notes as I build out the site. These are the steps I took to spin up this very website. It took about 2 hours start-to-finish.
+
+The site uses Pelican (a Python-based static-site generator) to take a folder of Markdown-formatted text files, compile them into static HTML and CSS, then deploy it to Cloudflare Pages for free hosting. I write the posts in vim or zed, then when I push changes to the Github repo Cloudflare automatically pulls the repo, builds an instance of Pelican on their servers, runs it to compile the static files, and then hosts it at my domain.
+
+It breaks down into 3 steps.
+- Setting up Pelican locally so you can test your posts, develop your theme, etc.
+- Creating a Github repo and pushing your content to it.
+- Configuring Cloudflare Pages to pull the repo, run the build process, and host the outputted content on your domain.
 
 ## Set up Pelican locally
 
@@ -17,7 +24,7 @@ uv init obsoletenerd.com
 cd obsoletenerd.com
 ```
 
-Edit `pyproject.toml` and use the following:
+Edit `pyproject.toml` and use the following as an example:
 
 ```bash
 [project]
@@ -36,13 +43,13 @@ markdown = [
 ]
 ```
 
-Save, then run the Pelican setup script with `uv run pelican-quickstart`
+Save, then run the Pelican setup script in the terminal with `uv run pelican-quickstart`
 
 Answer all the questions and it will create the basic website structure.
 
 Put a quick sample post into `/content/`, using this as an example:
 
-```bash
+```markdown
 ---
 Title: "Welcome to my new website!"
 Date: 2025-01-01 13:37
@@ -53,24 +60,32 @@ Tags: [tag1, tag2]
 Status: published
 ---
 
-This is a test post for my new Pelican-based website.
+This is the content for a test post on my new Pelican-based website.
 ```
 
-Do `uv run pelican` to build the site with the test post, then `uv run pelican -r -l` to spin up a local webserver and have a look at the website. It will show up at `http://127.0.0.1:8000`.
+In the terminal do `uv run pelican` to build the site locally with the new test post, then run `uv run pelican -r -l` to spin up a local webserver and have a look at the website to make sure it's all working. It will show up at `http://127.0.0.1:8000`.
 
-If you keep that server running in the terminal, you can then go edit your posts in your IDE and Pelican will re-build every time it detects a change, letting you iterate on posts/layouts/etc quickly locally before actually uploading anything.
+If you keep that server running in the terminal, you can then go edit your posts in your IDE and whenever you save, Pelican will detect the changes to the files and re-build it automatically, letting you just refresh the browser and iterate on posts/layouts/etc quickly locally before actually uploading anything. This is a great way to write your posts and dial in formatting, or work on the theme/layout/templates for the site.
 
-Lastly (and *importantly*) before continuing, type this in the terminal to lock your dependencies for Cloudflare Pages' build process:
+In the `.gitignore` file add the following to the bottom:
+```
+# Pelican output
+output/
+```
+
+This will stop your locally-compiled website output being pushed up to Github. It's not super important, but as the site will be re-compiled remotely, there's just no use pushing all your test content to Github (and on to Cloudflare). As your site grows, this can save significant time in the process.
+
+Lastly (**and importantly**) before continuing to the next step, type this in the terminal to lock your dependencies into a `requirements.txt` for Cloudflare's build process:
 
 `uv pip compile pyproject.toml -o requirements.txt`
 
-Cloudflare pages uses `pip` so we need the `requirements.txt` ready for it to run Pelican on their servers later.
+Cloudflare uses basic Python and `pip` and doesn't have `uv`, so we need the `requirements.txt` ready for it to run Pelican on their servers later.
 
 ## Set up a Github repository for the website
 
-This assumes you already have a Github account.
+This assumes you already have a Github account and know the basics of what you're doing.
 
-Go to [https://repo.new/](https://repo.new/) to create a new repository (it's just a shortcut to the normal page to create repos). Create the repo, then in your terminal in the root folder of the Pelican website, do the following:
+Go to [https://repo.new/](https://repo.new/) to create a new repository (it's just a shortcut to the normal Github page to create repos). Create the repo, then back in your terminal in the root folder of the Pelican website, do the following:
 
 ```bash
 git init
@@ -83,9 +98,12 @@ git push -u origin main
 
 (This is the standard "get a new project going in Github" stuff)
 
+This has pushed your content to Github, ready for Cloudflare to grab it and build the website.
+
 ## Configuring Cloudflare Pages to deploy your website
 
-In your Cloudflare dashboard left menu:
+In your [Cloudflare dashboard](https://dash.cloudflare.com/) left menu:
+
 - Click on "Compute (Workers)" and then "Workers & Pages".
 - Select the "Pages" tab.
 - Click on "Import an existing Git repository" and follow the instructions to connect to your Github account and the appropriate repository.
