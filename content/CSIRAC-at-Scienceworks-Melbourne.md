@@ -1,5 +1,5 @@
 ---
-Title: "CSIRAC at Scienceworks Melbourne"
+Title: CSIRAC at Scienceworks Melbourne
 Date: 2018-10-15 10:02
 Modified: 2010-12-05 19:30
 Summary: A visit to CSIRAC (*Commonwealth Scientific and Industrial Research Organisation Automatic Computer*), the fourth computer ever built in the world, and the only intact first-generation computer still surviving.
@@ -22,16 +22,16 @@ CSIRAC was also the first computer to ever play music, which I thought was parti
 
 Here are some crappy photos I took:
 
-![CSIRAC]({static}/images/CSIRAC-1.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-1.jpg)
 
-![CSIRAC]({static}/images/CSIRAC-2.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-2.jpg)
 
-![CSIRAC]({static}/images/CSIRAC-3.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-3.jpg)
 
-![CSIRAC]({static}/images/CSIRAC-4.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-4.jpg)
 
-![CSIRAC]({static}/images/CSIRAC-5.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-5.jpg)
 
-![CSIRAC]({static}/images/CSIRAC-6.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-6.jpg)
 
-![CSIRAC]({static}/images/CSIRAC-7.jpg)
+![CSIRAC]({static}/images/2018-10-15-CSIRAC-7.jpg)

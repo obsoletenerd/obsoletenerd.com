@@ -1,5 +1,5 @@
 ---
-Title: "Building a personal website using Pelican and Cloudflare"
+Title: Building a personal website using Pelican and Cloudflare
 Date: 2025-07-24 11:33
 Modified: 2025-07-24 20:45
 Summary: How I built this personal website and static blog with automated build-process and effectively-free hosting, using Pelican/Python, GitHub, and Cloudflare pages.
@@ -12,10 +12,11 @@ This post will evolve into more of a tutorial/guide later. For now it is a dumpi
 
 The site uses Pelican (a Python-based static-site generator) to take a folder of Markdown-formatted text files, compile them into static HTML and CSS, then deploy it to Cloudflare Pages for free hosting. I write the posts in vim or zed, then when I push changes to the Github repo Cloudflare automatically pulls the repo, builds an instance of Pelican on their servers, runs it to compile the static files, and then hosts it at my domain.
 
-It breaks down into 3 steps.
-- Setting up Pelican locally so you can test your posts, develop your theme, etc.
-- Creating a Github repo and pushing your content to it.
-- Configuring Cloudflare Pages to pull the repo, run the build process, and host the outputted content on your domain.
+It breaks down into 3 steps:
+
+ - Setting up Pelican locally so you can test your posts, develop your theme, etc.
+ - Creating a Github repo and pushing your content to it.
+ - Configuring Cloudflare Pages to pull the repo, run the build process, and host the outputted content on your domain.
 
 ## Set up Pelican locally
 
@@ -104,13 +105,13 @@ This has pushed your content to Github, ready for Cloudflare to grab it and buil
 
 In your [Cloudflare dashboard](https://dash.cloudflare.com/) left menu:
 
-- Click on "Compute (Workers)" and then "Workers & Pages".
-- Select the "Pages" tab.
-- Click on "Import an existing Git repository" and follow the instructions to connect to your Github account and the appropriate repository.
-- In the "Build Settings" section choose "Pelican" as the "Frameworks preset".
-- Modify the "Build Command" to be this: `pip install -r requirements.txt && pelican content -s publishconf.py`
-- Select "Environment variables (advanced)" and add `PYTHON_VERSION = 3.13` (or whatever is current when you do this)
-- Continue through the build process.
+ - Click on "Compute (Workers)" and then "Workers & Pages".
+ - Select the "Pages" tab.
+ - Click on "Import an existing Git repository" and follow the instructions to connect to your Github account and the appropriate repository.
+ - In the "Build Settings" section choose "Pelican" as the "Frameworks preset".
+ - Modify the "Build Command" to be this: `pip install -r requirements.txt && pelican content -s publishconf.py`
+ - Select "Environment variables (advanced)" and add `PYTHON_VERSION = 3.13` (or whatever is current when you do this)
+ - Continue through the build process.
 
 If all goes well, you should get given a test URL like `https://obsoletenerd-com.pages.dev` to test it all worked.
 
