@@ -2,44 +2,48 @@
 {% block content %}
 {% block content_title %}
 
+        <table border="1" width="100%"><tr><td valign="top" width="50%">
         <h2>Internal Links</h2>
 
         {% for title, link in MENUITEMS %}
-          <li><a href="{{ link }}">{{ title }}</a>. 
+          <li><a href="{{ link }}">{{ title }}</a>.
         {% endfor %}
 
         {% if DISPLAY_PAGES_ON_MENU %}
-	<p>Pages:
-          {% for p in pages %}
-            <a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a>. &nbsp; 
-          {% endfor %}
-        </p>
+            {% if pages %}
+                <p>Pages:
+                {% for p in pages %}
+                    <a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a>.
+                {% endfor %}
+                </p>
+            {% endif %}
         {% endif %}
 
         {% if DISPLAY_CATEGORIES_ON_MENU %}
-	<p>Categories: 
-	{% for cat, null in categories %}
-        <a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a>. &nbsp; 
-        {% endfor %}
-        </p>
+    	<p>Categories:
+       	{% for cat, null in categories %}
+            <a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a>.
+            {% endfor %}
+            </p>
 
-<p>Tags:
-    {% for tag, articles in tags|sort %}
-     <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }}). &nbsp;
-    {% endfor %}
-     
+            <p>Tags:
+            {% for tag, articles in tags|sort %}
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }}).
+            {% endfor %}
        {% endif %}
 
+       </td><td valign="top" width="50%">
+
         <h2>External Links</h2>
-          <ul>
-                <li><a href="https://hackerspace.au/@sen">Mastodon</a> - Mostly me sharing photos of tinkering</li>
+            <ul>
                 <li><a href="https://ballarathackerspace.org.au/">Ballarat Hackerspace</a> - Home away from home</li>
-                <li><a href="https://github.com/senwerks/">Github</a>  - Code related to my projects</li>
-                <li><a href="https://www.printables.com/@SenWerks_1654">Printables</a> - My designs for 3D printable objects</li>
+                <li><a href="https://bsky.app/profile/obsolete.bsky.social">Bluesky</a> - Occasional project pics</li>
+                <li><a href="https://hackerspace.au/@sen">Mastodon</a> - Similar to above</li>
+                <li><a href="https://github.com/senwerks/">Github</a>  - Terrible terrible code</li>
+                <li><a href="https://www.printables.com/@SenWerks_1654">Printables</a> - Designs for 3D printable objects</li>
         </ul>
 
-	<hr>
-
+        </td></tr></table>
 
 <h2>Weblog Posts</h2>
 {% endblock %}
