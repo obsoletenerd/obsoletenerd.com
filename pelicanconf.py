@@ -17,16 +17,16 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Ballarat Hackerspace", "https://ballarathackerspace.org.au/"),
+    ("Amateur Engineering", "https://amateurengineering.com.au/"),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("obsolete.bsky.social (Bluesky)", "https://bsky.app/profile/obsolete.bsky.social"),
+    ("@sen@hackerspace.au (Mastadon)", "https://hackerspace.au/@sen"),
+    ("@obsoletenerd (Github)", "https://github.com/obsoletenerd/"),
+    ("@obsoletenerd (Printables)", "https://www.printables.com/@ObsoleteNerd"),
 )
 
 DEFAULT_PAGINATION = 10
