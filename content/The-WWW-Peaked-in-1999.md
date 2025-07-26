@@ -1,7 +1,7 @@
 ---
 Title: The WWW Peaked in 1999
 Date: 1999-12-31 23:59
-Updated: 1999-12-31 23:59
+Modified: 1999-12-31 23:59
 Summary: It's a pretty well known fact* that the World Wide Web (and arguably humanity itself) peaked in 1999, and it has been downhill ever since. Read on to find out why I'm right, why you're wrong, and why we should reset the entire WWW to 1999 and start over.
 Category: Nostalgia
 Tags: Writing

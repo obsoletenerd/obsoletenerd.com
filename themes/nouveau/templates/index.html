@@ -1,63 +1,66 @@
-{% extends "base.html" %}
-{% block content %}
-{% block content_title %}
+{% extends "base.html" %} {% block content %} {% block content_title %}
 
-        <table border="1" width="100%"><tr><td valign="top" width="50%">
-        <h2>Internal Links</h2>
+<table border="1" width="100%">
+    <tr>
+        <td valign="top" width="50%">
+            <h2>Internal Links</h2>
 
-        {% for title, link in MENUITEMS %}
-          <li><a href="{{ link }}">{{ title }}</a>.
-        {% endfor %}
-
-        {% if DISPLAY_PAGES_ON_MENU %}
-            {% if pages %}
-                <p>Pages:
-                {% for p in pages %}
-                    <a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a>.
-                {% endfor %}
+            {% for title, link in MENUITEMS %}
+            <li>
+                <a href="{{ link }}">{{ title }}</a>. {% endfor %} {% if
+                DISPLAY_PAGES_ON_MENU %} {% if pages %}
+                <p>
+                    Pages:
+                    {% for p in pages %}
+                    <a href="{{ SITEURL }}/{{ p.url }}" {% if p=="page"%}aria-current="page"{% endif %}>{{ p.title }}</a>.
+                    {% endfor %}
                 </p>
-            {% endif %}
+                {% endif %} {% endif %} {% if DISPLAY_CATEGORIES_ON_MENU %}
+                <p>
+                    Categories:
+                    {% for cat, null in categories %}
+                    <a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a>.
+                    {% endfor %}
+                </p>
+
+                <p>
+                    Tags:
+                    {% for tag, articles in tags|sort %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>({{ articles|count }}).
+                    {% endfor %} {% endif %}
+                </p>
+            </li>
+        </td>
+        <td valign="top" width="50%">
+            <h2>External Links</h2>
+            <ul>
+                {% for name, link, description in LINKS %}
+                <li><a href="{{ link }}">{{ name }}</a> - {{ description }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
+<h2>Weblog Posts</h2>
+    {% for article in articles_page.object_list|sort(reverse=true, attribute='modified') %}
+    <h3>
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+    </h3>
+    <em style="color: #606060">
+        Published: <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+        {% if article.modified > article.date %}
+        (Edited on <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>)
         {% endif %}
 
-        {% if DISPLAY_CATEGORIES_ON_MENU %}
-    	<p>Categories:
-       	{% for cat, null in categories %}
-            <a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a>.
-            {% endfor %}
-            </p>
+    </em>
+    <p>{{ article.summary }}</p>
 
-            <p>Tags:
-            {% for tag, articles in tags|sort %}
-            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }}).
-            {% endfor %}
-       {% endif %}
-
-       </td><td valign="top" width="50%">
-
-        <h2>External Links</h2>
-            <ul>
-                <li><a href="https://ballarathackerspace.org.au/">Ballarat Hackerspace</a> - Home away from home</li>
-                <li><a href="https://bsky.app/profile/obsolete.bsky.social">Bluesky</a> - Occasional project pics</li>
-                <li><a href="https://hackerspace.au/@sen">Mastodon</a> - Similar to above</li>
-                <li><a href="https://github.com/senwerks/">Github</a>  - Terrible terrible code</li>
-                <li><a href="https://www.printables.com/@SenWerks_1654">Printables</a> - Designs for 3D printable objects</li>
-        </ul>
-
-        </td></tr></table>
-
-<h2>Weblog Posts</h2>
-{% endblock %}
-
-
-{% for article in articles_page.object_list %}
-	<h3><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
-        <p>{{ article.summary }}</p>
-        <p>Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></p>
-	<p> &nbsp; </p>
-	{% endfor %}
+    <p>&nbsp;</p>
+    {% endfor %}
 
 {% if articles_page.has_other_pages() %}
-    {% include 'pagination.html' %}
+{% include 'pagination.html' %}
 {% endif %}
-
 {% endblock content %}

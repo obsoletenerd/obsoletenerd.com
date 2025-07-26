@@ -14,16 +14,12 @@ FEED_ALL_RSS = 'feeds/feed.rss.xml'
 
 # Blogroll
 LINKS = (
-    ("Ballarat Hackerspace", "https://ballarathackerspace.org.au/"),
-    ("Amateur Engineering", "https://amateurengineering.com.au/"),
-)
-
-# Social widget
-SOCIAL = (
-    ("obsolete.bsky.social (Bluesky)", "https://bsky.app/profile/obsolete.bsky.social"),
-    ("@sen@hackerspace.au (Mastadon)", "https://hackerspace.au/@sen"),
-    ("@obsoletenerd (Github)", "https://github.com/obsoletenerd/"),
-    ("@obsoletenerd (Printables)", "https://www.printables.com/@ObsoleteNerd"),
+    ("Ballarat Hackerspace", "https://ballarathackerspace.org.au/", "Home away from home"),
+    ("Amateur Engineering", "https://amateurengineering.com.au/", "Hacker/Maker webring"),
+    ("obsolete.bsky.social (Bluesky)", "https://bsky.app/profile/obsolete.bsky.social", "Occasional project pics"),
+    ("@sen@hackerspace.au (Mastadon)", "https://hackerspace.au/@sen", "Similar to above"),
+    ("@obsoletenerd (Github)", "https://github.com/obsoletenerd/", "Terrible terrible code"),
+    ("@obsoletenerd (Printables)", "https://www.printables.com/@ObsoleteNerd", "My for 3D printable objects"),
 )
 
 DEFAULT_PAGINATION = 10
