@@ -8,8 +8,7 @@ Tags: Writing
 Status: Published
 ---
 
-It's a pretty well known fact* that the World Wide Web (and arguably humanity itself) peaked in 1999, and it has been downhill ever since. Sure, computers and tech have gotten better "technically" since then, but let's be real,
-everything else has gone to crap. Websites went from fun expressions of individual personality and mass sharing of information with the intent of becoming all of humanities knowledge at your finger tips, to gargantuan piles of garbage manufactured to brainwash, manipulate, and destroy society all for the sake of making a few rich people richer.
+It's a pretty well known fact* that the World Wide Web (and arguably humanity itself) peaked in 1999, and it has been downhill ever since. Sure, computers and tech have gotten better "technically" since then, but let's be real, the user experience has gone to crap. Websites went from fun expressions of individual personality and mass sharing of information with the intent of becoming all of humanities knowledge at your finger tips, to gargantuan piles of garbage manufactured to brainwash, manipulate, and destroy society all for the sake of making a few rich people richer.
 
 All of our devices, apps, and appliances spy on us 24/7 and harvest every ounce of data possible. Every interaction with technology is an effort against user-hostile UIs designed specifically to fight you doing what you want to do, and force you to do what *they* want you to do. Websites went from squeazing out every single possible byte of performance to give you as much content as possible, as fast as possible, to now taking dedicated servers running massive stacks of software with hundreds of dependencies to serve you what could be delivered via a .txt file.
 
