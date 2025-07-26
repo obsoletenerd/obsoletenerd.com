@@ -2,7 +2,7 @@
 Title: Digispark-based USB Volume Knob
 Date: 2021-05-13 10:08
 Modified: 2021-05-13 10:08
-Summary: This is a very basic beginner-friendly project that gives a physical volume knob that works on most desktop/laptops. Using a rotary encoder, a Digispark microcontroller, a few soldered wires, some pre-existing firmware from Adafruit, and a 3D printed housing, we get a super tidy and tiny dial for controlling the system volume (or map it to whatever you want).
+Summary: This is a very basic beginner-friendly project that gives a physical volume knob that works on most desktop/laptops. Using a rotary encoder, a Digispark microcontroller, a few soldered wires, some pre-existing firmware from Adafruit, and a 3D printed housing, we get a super tidy and tiny dial for controlling the system volume (or map it to whatever you want). It plugs directly into the side of my laptop into the USB port, or you can use it via a USB extension cable to place it on your desk.
 Category: Projects
 Tags: Projects, Hardware, Software, 3DPrinting
 Status: Published

@@ -2,7 +2,7 @@
 Title: Solving the Australian Signals Directorate Cryptography Challenge Coin
 Date: 2022-09-01 13:37
 Modified: 2022-09-01 13:37
-Summary: How myself and a mate worked through the Australian Signals Directorate cryptography challenge, with neither of us having any background in cryptography other than reading Cryptonomicon more times than is sane... we solved it.
+Summary: Today the Australian Signals Directorate announced their 75th Anniversary Commemorative Coin, which is a standard Australian 50 cent coin with various cryptographic puzzles embedded in it. I'm not a cryptography expert, but I've always loved this stuff from the sidelines of physical pentesting and teen-years script-kiddying, so I thought I'd give it a go. Along with a mate in our local Hackerspace's slack channel, we started bouncing ideas back and forth, and below is a write-up of the eventual path to solving all the puzzles on the coin (though as you'll see, not necessarily in the order they intended).
 Category: Misc
 Tags: CTF
 Status: Published
@@ -13,9 +13,7 @@ Today the Australian Signals Directorate announced their [75th Anniversary Comme
 The coin itself looks like this:
 
 <center>
-<img alt="ASD 50c Coin - Front" src="{static}/images/2022-09-01-ASD-50c-Coin-1.png" width="80%">
-
-<img alt="ASD 50c Coin - Back" src="{static}/images/2022-09-01-ASD-50c-Coin-2.png" width="80%">
+<img alt="ASD 50c Coin" src="{static}/images/2022-09-01-ASD-50c-Coin.png" width="80%">
 </center>
 
 The first thing we did is transcribe the text from the coin to a note file, so we had it copy-pastable:
