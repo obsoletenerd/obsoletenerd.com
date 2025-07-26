@@ -8,7 +8,7 @@ TIMEZONE = 'Australia/Melbourne'
 
 DEFAULT_LANG = 'en'
 
-# Feed generation is usually not desired when developing
+# Feed generation
 FEED_ALL_ATOM = 'feeds/feed.atom.xml'
 FEED_ALL_RSS = 'feeds/feed.rss.xml'
 
@@ -27,6 +27,3 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
