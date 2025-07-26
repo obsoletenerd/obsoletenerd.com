@@ -19,7 +19,7 @@ LINKS = (
     ("obsolete.bsky.social (Bluesky)", "https://bsky.app/profile/obsolete.bsky.social", "Occasional project pics"),
     ("@sen@hackerspace.au (Mastadon)", "https://hackerspace.au/@sen", "Similar to above"),
     ("@obsoletenerd (Github)", "https://github.com/obsoletenerd/", "Terrible terrible code"),
-    ("@obsoletenerd (Printables)", "https://www.printables.com/@ObsoleteNerd", "My for 3D printable objects"),
+    ("@obsoletenerd (Printables)", "https://www.printables.com/@ObsoleteNerd", "3D printable objects by me"),
 )
 
 DEFAULT_PAGINATION = 10
