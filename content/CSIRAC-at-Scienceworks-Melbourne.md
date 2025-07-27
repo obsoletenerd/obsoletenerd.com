@@ -3,8 +3,8 @@ Title: CSIRAC at Scienceworks Melbourne
 Date: 2018-10-15 10:02
 Modified: 2018-10-15 10:02
 Summary: A visit to CSIRAC (*Commonwealth Scientific and Industrial Research Organisation Automatic Computer*), the fourth computer ever built in the world, and the only intact first-generation computer still surviving.
-Category: Projects
-Tags: RetroRech
+Category: Retrocomputing
+Tags: Hardware
 Status: Published
 ---
 
