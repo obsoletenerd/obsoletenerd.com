@@ -16,23 +16,29 @@ I don't want to try boot it up until i've fully checked it over, especially cons
 
 For now, here's some photos and the basic info i've gleaned from it.
 
-![Blue-88-PC Keyboard]({static}/images/2025-05-27-Blue-8088-PC-1.jpg)
+<center>
+<img alt="Blue 8088 IBM PC XT Clone" src="{static}/images/2025-05-27-Blue-8088-PC-1.jpg" width="80%">
 
-![Blue-88-PC Keyboard]({static}/images/2025-05-27-Blue-8088-PC-2.jpg)
+<img alt="Blue 8088 IBM PC XT Clone" src="{static}/images/2025-05-27-Blue-8088-PC-2.jpg" width="80%">
+</center>
 
 ## Specifications
 
 It has a [Seagate ST-389](https://theretroweb.com/harddrives/238) HDD inside it, which is a 32Mb 3600RPM dual-platter hard drive.
 
-![Blue-88-PC Keyboard]({static}/images/2025-05-27-Blue-8088-PC-3.jpg)
+<center>
+<img alt="Nan Tan Co 8088 Hard Drive" src="{static}/images/2025-05-27-Blue-8088-PC-3.jpg" width="80%">
+</center>
 
 Inside is a [Siemens SAB 8088-1-P](https://www.cpu-world.com/CPUs/8088/Siemens-SAB8088-1-P.html) CPU, running a whopping 10MHz clock speed. To put that in perspective, the chip inside your tap-to-pay/paypass bank card is 7x faster than this computer.
 
-![Blue-88-PC Keyboard]({static}/images/2025-05-27-Blue-8088-PC-4.jpg)
+<center>
+<img alt="Blue 8088 IBM PC XT Clone CPU" src="{static}/images/2025-05-27-Blue-8088-PC-4.jpg" width="80%">
 
-![Blue-88-PC Keyboard]({static}/images/2025-05-27-Blue-8088-PC-5.jpg)
+<img alt="Blue 8088 IBM PC XT Clone Motherboard" src="{static}/images/2025-05-27-Blue-8088-PC-5.jpg" width="80%">
 
-![Blue-88-PC Keyboard]({static}/images/2025-05-27-Blue-8088-PC-6.jpg)
+<img alt="Nan Tan Co 8088 Keyboard" src="{static}/images/2025-05-27-Blue-8088-PC-6.jpg" width="80%">
+</center>
 
 The decal on the bottom of the keyboard has the following information:
 
