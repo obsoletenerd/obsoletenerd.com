@@ -1,7 +1,7 @@
 ---
 Title: Building a personal website using Pelican and Cloudflare
 Date: 2025-07-24 11:33
-Modified: 2025-07-24 20:45
+Modified: 2025-07-27 15:26
 Summary: How I built this personal website and static blog with automated build-process and effectively-free hosting, using Markdown-formatted text files to write the posts, Pelican/Python to incorporate Jinja templates and build static HTML output, GitHub for version control and source hosting, and Cloudflare pages to serve the static content to the web on my personald domain name. This post will evolve into more of a tutorial/guide later. For now it is a dumping ground for my notes as I build out the site. These are the steps I took to spin up this very website. It took about 2 hours start-to-finish.
 Category: Projects
 Tags: Software, Projects
@@ -14,10 +14,11 @@ The site uses Pelican (a Python-based static-site generator) to take a folder of
 
 It breaks down into 3 main steps:
 
- - Setting up Pelican locally so you can test your posts, develop your theme, iterate on your content, etc.
- - Creating a Github repo and pushing your content to it.
- - Configuring Cloudflare Pages to pull the repo, run the build process, and host the outputted content on your domain.
+ - [Setting up Pelican locally](#setting-up-pelican) so you can test your posts, develop your theme, iterate on your content, etc.
+ - [Creating a Github repo](#creating-a-github-repo) and pushing your content to it.
+ - [Configuring Cloudflare Pages](#configuring-cloudflare-pages) to pull the repo, run the build process, and host the outputted content on your domain.
 
+<a id="setting-up-pelican"></a>
 ## Set up Pelican locally
 
 ```bash
@@ -82,6 +83,7 @@ Lastly (**and importantly**) before continuing to the next step, type this in th
 
 Cloudflare uses basic Python and `pip` and doesn't have `uv`, so we need the `requirements.txt` ready for it to run Pelican on their servers later.
 
+<a id="creating-a-github-repo"></a>
 ## Set up a Github repository for the website
 
 This assumes you already have a Github account and know the basics of what you're doing.
@@ -101,6 +103,7 @@ git push -u origin main
 
 This has pushed your content to Github, ready for Cloudflare to grab it and build the website.
 
+<a id="configuring-cloudflare-pages"></a>
 ## Configuring Cloudflare Pages to deploy your website
 
 In your [Cloudflare dashboard](https://dash.cloudflare.com/) left menu:
