@@ -49,6 +49,7 @@
         <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
         {% if article.date | days_since <= 14 %}<img src="/theme/images/new.gif" />{% endif %}
     </h3>
+    <p>{{ article.summary }}</p>
     <em style="color: #606060">
         Published: <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
         {% if article.modified > article.date %}
@@ -56,8 +57,6 @@
         {% endif %}
 
     </em>
-    <p>{{ article.summary }}</p>
-
     <p>&nbsp;</p>
     {% endfor %}
 
