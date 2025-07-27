@@ -23,3 +23,12 @@ LINKS = (
 )
 
 DEFAULT_PAGINATION = 10
+
+from datetime import datetime, timedelta
+
+def days_since(date):
+    return (datetime.now().date() - date.date()).days
+
+JINJA_FILTERS = {
+    'days_since': days_since
+}
