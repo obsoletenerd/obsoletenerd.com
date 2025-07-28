@@ -38,10 +38,16 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 
 [Leonard David](https://www.leonarddavid.com) - Writing interesting articles about space for longer than I've been alive. Other than writing multiple physical books, he writes blog posts relentlessly on all things space-news-related.
 
+[Jeff Geerling](https://www.jeffgeerling.com/blog) - Quite the famous nerd these days, and still keeps a very well written blog parallel to his YouTube videos. His blog posts generally go into a lot more technical detail too, with code and tutorials included rather than just a "mainstream audience" focussed overview like the videos.
+
+
+
 <a id="interactive-entertainment"></a>
 ## Interactive/Entertainment
 
 [Windows93.net](https://www.windows93.net) - Half Windows 95 parody site, and half interactive web-based exploration of retro awesomeness. There's is *so much* stuff hidden in here if you start digging.
+
+[Beyond Cyberpunk!](http://www.streettech.com/bcp/) - Existing since before the web itself and originally starting as a HyperCard, this is a love-letter to Cyberpunk (the genre before the game existed) and everything relating to it. Essays, links/resources, and lots more.
 
 [Hackers Curator](https://hackerscurator.com) - A good-old early-web style fan-page to the movie Hackers, made by a passionate fan who creates replica props and collects memorabilia related to the movie. As a mega-fan myself with an unhealthy collection of Hackers-related crap, I'm a fan of this fan.
 
@@ -51,7 +57,17 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 
 [Rotten Library](https://gwern.net/doc/rotten.com/library/index.html) - "An unforgettable collection of all that mankind swore to forget, but which we have trapped in agonizing clarity to remember always". A massive archive of articles covering every conceivable topic, with zero hesitation to go where more mainstream websites might shy away from.
 
+[Atomic Rockets](https://projectrho.com/public_html/rocket/) - The personal project of a single person that has to be one of the most comprehensive resources of Science Fiction information/facts/data ever attempted. If you're a Sci-Fi author or just a keen fan, this website is a mind-blowing example of how far a personal hobby website can go.
+
 <a id="#indexes-and-directories"></a>
 ## Indexes & Directories
 
 [Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
+
+[The Useless Web](https://theuselessweb.com) - Directory of extremely random web creations by individuals who submit their projects to the list, and then you can click to see a random project by someone. Basically an art experiment in front-end web design and user interaction.
+
+[Cameron's World](https://www.cameronsworld.net) - An epic trip down Geocities-era memory lane. Meticulously crafted anti-minimalism homepage made to look like a digital scrapbook of 90s GIFs and backgrounds, scattered with links to random archived Geocities homepages. Dig around, there's treasure galore.
+
+[Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
+
+[Ooh.Directory](https://ooh.directory) - A directory of 2,000+ blogs collated in the style of early Yahoo, completely with categories/sub-categories, search, and "go to a random blog" functions. A personal project of a single person.
