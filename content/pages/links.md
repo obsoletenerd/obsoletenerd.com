@@ -5,8 +5,6 @@ Title: Links
 
 In the spirit of the old-web, this is my curated directory of links to websites I find useful or interesting. Almost all of the websites here are personal sites/projects by individuals or small teams done for the love of it.
 
-<center><img src="/theme/images/baby.gif" /></center>
-
 ## Index
 
 - [Making & Hacking](#making-and-hacking)
@@ -14,6 +12,8 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 - [Personal Blogs](#personal-blogs)
 - [Interactive/Entertainment](#interactive-entertainment)
 - [Indexes & Directories](#indexes-and-directories)
+
+<center><img src="/theme/images/baby.gif" /></center>
 
 <a id="making-and-hacking"></a>
 ## Making & Hacking
