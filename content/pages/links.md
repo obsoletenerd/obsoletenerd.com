@@ -5,6 +5,8 @@ Title: Links
 
 In the spirit of the old-web, this is my curated directory of links to websites I find useful or interesting. Almost all of the websites here are personal sites/projects by individuals or small teams done for the love of it.
 
+<center><img src="/theme/images/baby.gif" /></center>
+
 ## Index
 
 - [Making & Hacking](#making-and-hacking)
@@ -30,6 +32,10 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 [DOS Haven](https://www.doshaven.eu) - A directory of hundreds of new (yes *new*) DOS games and homebrew.
 
 [TheOldNet](https://theoldnet.com) - A website that lets you view other websites as they were in the 90s, along with a whole bunch of other retrocomputing tools and resources. One of my favourite tools is the [browser proxy](https://theoldnet.com/docs/httpproxy/index.html) letting you set your browser to a specific year and all websites will appear as they existed in that year. Great for browsing from an actual retro computer.
+
+[The Oldternet](https://www.geocities.ws/oldternet/) - A personal website that is a love-letter to the early internet and video game consoles. Lots of cool old icon packs, video game console ads and promo material, and the all-import webring.
+
+[EFF's (Extended) Guide to the Internet](https://www.whitman.edu/mathematics/eegtti/eeg_toc.html) - Yes, *that* EFF... this is their "Extended Guide to the Internet" originally published in 1994. It's a great nostalgia trip to a time before search engines or wikipedia, where people would try and collect as much information as possible in one place just to help other people find their way around the (then very very small) internet.
 
 <a id="personal-blogs"></a>
 ## Personal Blogs
