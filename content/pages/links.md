@@ -12,22 +12,27 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 - [Personal Blogs](#personal-blogs)
 - [Interactive/Entertainment](#interactive-entertainment)
 - [Indexes & Directories](#indexes-and-directories)
+- [Open Source Tools](#open-source-tools)
 
 <center><img src="/theme/images/baby.gif" /></center>
 
 <a id="making-and-hacking"></a>
 ## Making & Hacking
 
-[Hackerspace.au](https://hackerspace.au/) - A Mastadon social instance run by the [Ballarat Hackerspace](https://ballarathackerspace.org.au) letting you connect to the fediverse.
+Websites devoted to the traditional meaning of the word [Hacker](https://en.wikipedia.org/wiki/Hacker_culture). Pulling things apart to see how they work. Breaking things to learn how they were made. Creating things for no other reason than to enjoy the act of creation.
+
+[Hackerspace.au](https://hackerspace.au/) - A Mastodon social instance run by the [Ballarat Hackerspace](https://ballarathackerspace.org.au) letting you connect to the fediverse.
 
 [The Hacker Crackdown](https://www.mit.edu/hacker/hacker.html) - MIT has been hosting this digital copy of The Hacker Crackdown by Bruce Sterling for many decades. If you're into early computer culture this is basically one of the bibles.
 
 [Phrack](https://phrack.org) - Somehow still going after all these decades, and still posting a broad range of technical deep-dives into very random topics. Almost always over my head, but still a good read if only to learn random new stuff about things that will never be relevant to you.
 
-[PoC||GTFO]() - "International Journal of Proof of Concept or Get the Fuck Out" is "a friendly little journal for ladies and gentlemen of distinguished ability and taste in the field of computer security and the architecture of weird machines." Following the likes of Phrack or Uninformed but taking a pseudo-biblical approach to long-form computer-security essays.
+[PoC||GTFO](https://pocorgtfo.hacke.rs) - "International Journal of Proof of Concept or Get the Fuck Out" is "a friendly little journal for ladies and gentlemen of distinguished ability and taste in the field of computer security and the architecture of weird machines." Following the likes of Phrack or Uninformed but taking a pseudo-biblical approach to long-form computer-security essays. Another archived copy [here](https://github.com/angea/pocorgtfo).
 
 <a id="retrocomputing"></a>
 ## Retrocomputing
+
+All things [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing). Yes, apparently it's one word now. Whether it's early-internet culture, video game consoles or archaic home computers, these are the pages that store information relevant to [my unhealthy obsession](https://obsoletenerd.com/tag/museum) with collecting other people's e-waste.
 
 [DOS Haven](https://www.doshaven.eu) - A directory of hundreds of new (yes *new*) DOS games and homebrew.
 
@@ -37,10 +42,16 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 
 [EFF's (Extended) Guide to the Internet](https://www.whitman.edu/mathematics/eegtti/eeg_toc.html) - Yes, *that* EFF... this is their "Extended Guide to the Internet" originally published in 1994. It's a great nostalgia trip to a time before search engines or wikipedia, where people would try and collect as much information as possible in one place just to help other people find their way around the (then very very small) internet.
 
+[Vogons](https://www.vogons.org) - A community/forum for people into emulating old software (on all types of hardware). Retro arcade and video game consoles, PC/mac emulation, and everything related to those things.
+
+[Infinite Mac](https://infinitemac.org) - Emulate classic Macintosh operating systems directly in your browser. Everything from the original System 1.0 release in 1984 up to 2005's Mac OSX Tiger when Spotlight was introduced and most people are familiar with from the see-through G3 bubble-iMacs at school.
+
 <a id="personal-blogs"></a>
 ## Personal Blogs
 
-[Bartosz Ciechanowski](https://ciechanow.ski) - A personal blog doing deep-dives on random topics from gears and watches to naval architecture and GPS. Each post is a meticulously hand-crafted adventure with incredible depth, detail, and interactice diagrams.
+Interesting personal blogs from interesting individuals on interesting topics, or just blogs from individuals on topics. The "interesting" part is subjective but these are the personal blogs I follow from people who write about stuff that interests me personally.
+
+[Bartosz Ciechanowski](https://ciechanow.ski) - A personal blog doing deep-dives on random topics from gears and watches to naval architecture and GPS. Each post is a meticulously hand-crafted adventure with incredible depth, detail, and interactive diagrams.
 
 [Leonard David](https://www.leonarddavid.com) - Writing interesting articles about space for longer than I've been alive. Other than writing multiple physical books, he writes blog posts relentlessly on all things space-news-related.
 
@@ -51,7 +62,9 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 <a id="interactive-entertainment"></a>
 ## Interactive/Entertainment
 
-[Windows93.net](https://www.windows93.net) - Half Windows 95 parody site, and half interactive web-based exploration of retro awesomeness. There's is *so much* stuff hidden in here if you start digging.
+These are websites designed to entertain, educate, or archive. The topics vary wildly but all of the below websites are places I've found informative or entertaining in some way.
+
+[Windows93.net](https://www.windows93.net) - Half Windows 95 parody site, and half interactive web-based exploration of retro awesomeness. There is *so much* stuff hidden in here if you start digging.
 
 [Beyond Cyberpunk!](http://www.streettech.com/bcp/) - Existing since before the web itself and originally starting as a HyperCard, this is a love-letter to Cyberpunk (the genre before the game existed) and everything relating to it. Essays, links/resources, and lots more.
 
@@ -65,8 +78,12 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 
 [Atomic Rockets](https://projectrho.com/public_html/rocket/) - The personal project of a single person that has to be one of the most comprehensive resources of Science Fiction information/facts/data ever attempted. If you're a Sci-Fi author or just a keen fan, this website is a mind-blowing example of how far a personal hobby website can go.
 
-<a id="#indexes-and-directories"></a>
+[Ian's Shoelace Site](https://www.fieggen.com/shoelace/index.htm) - Ian has been collecting information about shoe laces and all the ways to lace or tie shoes and posting it on the web since April 2000, and this has to be one of my favourite examples of the old-web. A lifetime devoted to sharing information about one of the most random topics, and yet still valuable and useful to this current day.
+
+<a id="indexes-and-directories"></a>
 ## Indexes & Directories
+
+Old-school web directories and curated lists made by people who want to share the best of the indie-web without the influence of algorithms and advertiser-funded bias.
 
 [Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
 
@@ -77,3 +94,16 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 [Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
 
 [Ooh.Directory](https://ooh.directory) - A directory of 2,000+ blogs collated in the style of early Yahoo, completely with categories/sub-categories, search, and "go to a random blog" functions. A personal project of a single person.
+
+<a id="open-source-tools"></a>
+## Open Source Tools
+
+Not all made by individuals, but I feel like Open Source software is such an under-rated and under-known aspect of modern computing that it always needs more attention. Too many people still think "I need to edit photos? I'll get Photoshop", or want to learn games and go learn Unity without realising there's Godot, etc.
+
+[Godot](https://godotengine.org) - Pronounced "godot" (like "gif" is pronounced "gif"). Open-source and completely free to use, Godot is an impressively powerful game development engine that often gets buried under the shadows of the large commercial ones, and yet is fully capable of building release-level games, while being way easier to learn too.
+
+[Blender](https://www.blender.org) - Most people who use computers have heard of Blender, but still very few understand how easy and fun it can be just to create "something". Follow a few tutorials and you'll be making incredible 3D art and/or animations in no time. It's easy to get daunted by what the pros are doing with it, but it's also just extremely fun to play around with for fun.
+
+[Inkscape](https://inkscape.org) - A complete competitor for Adobe Illustrator that is entirely free, Open Source, and runs on every OS. I have used Inkscape professionally and as a hobbyist for decades, and it just keeps getting better. Anything from physical print like flyers/posters, t-shirts, and stickers, through to digital vector art for websites and video games.
+
+[VLC](https://www.videolan.org/vlc/) - If you're using anything other than VLC to watch videos on your devices, you're doing it wrong. Stop wrestling with the horrible built-in video applications in your OS and just use VLC for everything. It plays every format you'll ever need, it converts, it plays music files and DVD rips, and it can stream digital radio stations. All for free.
