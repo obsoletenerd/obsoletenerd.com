@@ -61,3 +61,5 @@ and
 > ENHANCED 101 KEYS
 
 The [FCC application](https://fccid.io/FMA44HKB6251) just confirms the keyboard was made by Nan Tan Co, but doesn't really give up anything extra.
+
+**Know anything about this computer? Let me know via [Bluesky](https://bsky.app/profile/obsolete.bsky.social) or [Mastodon](https://hackerspace.au/@sen).**
