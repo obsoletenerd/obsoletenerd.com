@@ -46,6 +46,8 @@ All things [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing). Yes, 
 
 [Infinite Mac](https://infinitemac.org) - Emulate classic Macintosh operating systems directly in your browser. Everything from the original System 1.0 release in 1984 up to 2005's Mac OSX Tiger when Spotlight was introduced and most people are familiar with from the see-through G3 bubble-iMacs at school.
 
+[ClassicReload](https://classicreload.com) - Classic video games emulated in the browser, no installation of anything required. It doesn't have ever game ever, but it has lots of classics I personally grew up playing like [After Burner II](https://classicreload.com/dosx-after-burner-ii.html), [Prince of Persia](https://classicreload.com/prince-of-persia.html), [Wolfenstein 3D](https://classicreload.com/wolfenstein-3d.html), and [TMNT II](https://classicreload.com/teenage-mutant-ninja-turtles-ii-the-arcade-game.html)
+
 <a id="personal-blogs"></a>
 ## Personal Blogs
 
@@ -57,8 +59,9 @@ Interesting personal blogs from interesting individuals on interesting topics, o
 
 [Jeff Geerling](https://www.jeffgeerling.com/blog) - Quite the famous nerd these days, and still keeps a very well written blog parallel to his YouTube videos. His blog posts generally go into a lot more technical detail too, with code and tutorials included rather than just a "mainstream audience" focussed overview like the videos.
 
+[Bruce Schneier](https://www.schneier.com) - A renowned cryptography and security expert who has been writing about computer security since the 90s, and has published multiple books on the topic too.
 
-
+[The Digital Antiquarian](https://www.filfre.net/) - Jimmy has been writing about retro video games for a long time, and has an awesome collection of articles going into the history, development, and culture of them. It's best to use the [sitemap](https://www.filfre.net/sitemap/) to get a list of articles chronologically.
 <a id="interactive-entertainment"></a>
 ## Interactive/Entertainment
 
@@ -79,6 +82,10 @@ These are websites designed to entertain, educate, or archive. The topics vary w
 [Atomic Rockets](https://projectrho.com/public_html/rocket/) - The personal project of a single person that has to be one of the most comprehensive resources of Science Fiction information/facts/data ever attempted. If you're a Sci-Fi author or just a keen fan, this website is a mind-blowing example of how far a personal hobby website can go.
 
 [Ian's Shoelace Site](https://www.fieggen.com/shoelace/index.htm) - Ian has been collecting information about shoe laces and all the ways to lace or tie shoes and posting it on the web since April 2000, and this has to be one of my favourite examples of the old-web. A lifetime devoted to sharing information about one of the most random topics, and yet still valuable and useful to this current day.
+
+[Apollo Lunar Surface Journal](https://www.nasa.gov/history/alsj/main.html) - An absolute gem of the early web, this is an *extremely* comprehensive collection of information about the Apollo Lunar Surface Journeys, including transcripts, photographs, and technical data, scanned trainined guides, audio recordings, and so much more. First published in 1995, this is such a valuable resource for space enthusiasts.
+
+[Higher Intellect](https://preterhuman.net) - Started in the late 1990s, Higher Intellect is a colossal collection of text files and PDFs on every topic imaginable. Data hoarding as a service-to-humanity. This is one of those websites you want stored on your NAS for when society collapses.
 
 <a id="indexes-and-directories"></a>
 ## Indexes & Directories
