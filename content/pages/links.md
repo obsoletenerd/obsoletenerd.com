@@ -48,6 +48,8 @@ All things [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing). Yes, 
 
 [ClassicReload](https://classicreload.com) - Classic video games emulated in the browser, no installation of anything required. It doesn't have ever game ever, but it has lots of classics I personally grew up playing like [After Burner II](https://classicreload.com/dosx-after-burner-ii.html), [Prince of Persia](https://classicreload.com/prince-of-persia.html), [Wolfenstein 3D](https://classicreload.com/wolfenstein-3d.html), and [TMNT II](https://classicreload.com/teenage-mutant-ninja-turtles-ii-the-arcade-game.html)
 
+[The Oldschool PC Font Resource](https://int10h.org/oldschool-pc-fonts/) - The world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles - preserving raster typography from pre-GUI times.
+
 <a id="personal-blogs"></a>
 ## Personal Blogs
 
