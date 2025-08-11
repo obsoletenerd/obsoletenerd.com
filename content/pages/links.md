@@ -3,13 +3,14 @@ Layout: Page
 Title: Links
 ---
 
-In the spirit of the old-web, this is my curated directory of links to websites I find useful or interesting. Almost all of the websites here are personal sites/projects by individuals or small teams done for the love of it.
+In the spirit of the old-web, this is my curated directory of links to websites I find useful, interesting, or worth sharing. A lot of the websites here are personal sites/projects by individuals or small teams done for the love of it, or are websites that deserve more attention in this modern era of megacorps buying all the online attention.
 
 ## Index
 
 - [Making & Hacking](#making-and-hacking)
 - [Retrocomputing](#retrocomputing)
 - [Personal Blogs](#personal-blogs)
+- [Old Websites Still Running](#old-websites)
 - [Interactive/Entertainment](#interactive-entertainment)
 - [Indexes & Directories](#indexes-and-directories)
 - [Open Source Tools](#open-source-tools)
@@ -64,6 +65,15 @@ Interesting personal blogs from interesting individuals on interesting topics, o
 [Bruce Schneier](https://www.schneier.com) - A renowned cryptography and security expert who has been writing about computer security since the 90s, and has published multiple books on the topic too.
 
 [The Digital Antiquarian](https://www.filfre.net/) - Jimmy has been writing about retro video games for a long time, and has an awesome collection of articles going into the history, development, and culture of them. It's best to use the [sitemap](https://www.filfre.net/sitemap/) to get a list of articles chronologically.
+
+<a id="old-websites"></a>
+## Old Websites Still Running
+
+[First Website Ever](https://info.cern.ch/hypertext/WWW/TheProject.html) - Quite literally the first webpage ever made, still hosted on the CERN servers where the World Wide Web started. The inspiration for this very website design and the peak of web design in general.
+
+[Starship Titanic](https://starshiptitanic.com) - The original website for the Starship Titanic game made by Douglas Adams, of which I loved dearly and still own my original copy. Most of the downloadable assets (wallpapers, WAV files) now 404 but the page content is still there. The company behind it which was started/owned by Adams, called [The Digital Village](https://www.tdv.com), is also still online despite going defunct in 2001.
+
+
 <a id="interactive-entertainment"></a>
 ## Interactive/Entertainment
 
@@ -107,7 +117,7 @@ Old-school web directories and curated lists made by people who want to share th
 <a id="open-source-tools"></a>
 ## Open Source Tools
 
-Not all made by individuals, but I feel like Open Source software is such an under-rated and under-known aspect of modern computing that it always needs more attention. Too many people still think "I need to edit photos? I'll get Photoshop", or want to learn games and go learn Unity without realising there's Godot, etc.
+Not all made by individuals, but I feel like Open Source software is such an under-rated and under-known aspect of modern computing that it always needs more attention. Too many people still think "I need to edit photos? I'll get Photoshop", or want to learn games and go learn Unity without realising there's Godot, etc. These are a few of the open source tools that I use nearly every day and that manage to compete with massive companies while staying free and community-made.
 
 [Godot](https://godotengine.org) - Pronounced "godot" (like "gif" is pronounced "gif"). Open-source and completely free to use, Godot is an impressively powerful game development engine that often gets buried under the shadows of the large commercial ones, and yet is fully capable of building release-level games, while being way easier to learn too.
 
