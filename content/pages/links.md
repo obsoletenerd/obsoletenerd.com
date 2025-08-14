@@ -60,6 +60,8 @@ Interesting personal blogs from interesting individuals on interesting topics, o
 
 [Leonard David](https://www.leonarddavid.com) - Writing interesting articles about space for longer than I've been alive. Other than writing multiple physical books, he writes blog posts relentlessly on all things space-news-related.
 
+[Localghost](https://localghost.dev/) - Personal site of another web person who came up through the geocities trenches. I love the theme-switcher (top right) showing various old design trends, and especially enjoyed the [love letter to the personal website](https://localghost.dev/blog/this-page-is-under-construction/) blog entry.
+
 [Jeff Geerling](https://www.jeffgeerling.com/blog) - Quite the famous nerd these days, and still keeps a very well written blog parallel to his YouTube videos. His blog posts generally go into a lot more technical detail too, with code and tutorials included rather than just a "mainstream audience" focussed overview like the videos.
 
 [Bruce Schneier](https://www.schneier.com) - A renowned cryptography and security expert who has been writing about computer security since the 90s, and has published multiple books on the topic too.
