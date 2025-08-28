@@ -13,6 +13,8 @@ Below are some games I've developed over the years. None of them are anything sp
 
 [Beltalowda](/pages/beltalowda/) is a space exploration/mining game also being developed in [PICO-8](https://www.lexaloffle.com/pico-8.php). Very early development, you can fly around and shoot asteroids and collect ore, but not much more yet. I'm planning to add selling of ores, processing for fuel, buying upgrades, etc.
 
+[Snack](/pages/snack/) is based on the old Snake game that came with Nokia phones, and in which I lost way too many hundreds (thousands?) of hours of my life to. I merged the idea with the fruit/gem matching games of the early 2000s, so now eating fruit makes you longer, but eating the same fruit you just ate makes you shorter. This game is still in early development, and I plan on adding special fruits etc, of which there is currently 1 (Chilli).
+
 ## Games not playable in the browser (yet?)
 
 [TypeJump](https://github.com/obsoletenerd/typejump) is a small game I made in [Game Maker Studio 2](https://gamemaker.io/en/blog/introducing-gamemaker-studio-2) (a deceptively more powerful/advanced game engine than the name makes it sound) for my girls when they were very young, to introduce them to computers and how keyboards/typing works. It's like a typing-tutor type game but much simpler, purely having them find individual keys on the keyboard to get the character to jump obstacles. I've also been slowly working on a new version of this game that is much more advanced and is a proper typing tutor with dictionary words/phrases, advancing difficulty, timers/leaderboards, etc.
