@@ -973,10 +973,29 @@
         </style>
     </head>
 
-    <body style="padding: 0px; margin: 0px; background-color: #222; color: #ccc">
+    <body bgcolor="#C0C0C0">
+        <table border="0">
+            <tr>
+                <td>
+                    <img src="/theme/images/applecomputer.gif" alt="It's IN the computer?" />
+                </td>
+                <td>
+                    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+                    {% if SITESUBTITLE %}
+                    <p>{{ SITESUBTITLE }}</p>
+                    {% endif %}
+                </td>
+            </tr>
+        </table>
+
+        <hr />
         <div id="body_0">
             <!-- hide this when playing in mobile (p8_touch_detected) so that elements don't affect layout -->
 
+            {% block content %}
+
+            <h2>{{ page.title }}</h2>
+            {{ page.content }} {% endblock %}
             <!-- Add any content above the cart here -->
 
             <div id="p8_frame_0" style="max-width: 800px; max-height: 800px; margin: auto">
@@ -1144,11 +1163,6 @@
                     if (!p8_touch_detected) if (pico8_state.request_pointer_lock) canvas.requestPointerLock();
                 });
             </script>
-
-            {% block content %}
-
-            <h2>{{ page.title }}</h2>
-            {{ page.content }} {% endblock %}
         </div>
         <!-- body_0 -->
     </body>
