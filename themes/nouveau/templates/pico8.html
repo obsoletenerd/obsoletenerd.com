@@ -389,8 +389,8 @@
 
                 if (!is_fullscreen)
                     if (!p8_touch_detected)
-                        // fullscreen: update every frame for safety. should be cheap!
                         if (p8_update_layout_hash == update_hash) {
+                            // fullscreen: update every frame for safety. should be cheap!
                             // mobile: update every frame because nothing can be trusted
                             //console.log("p8_update_layout(): skipping");
                             requestAnimationFrame(p8_update_layout);
@@ -1148,7 +1148,7 @@
             {% block content %}
 
             <h2>{{ page.title }}</h2>
-            {{ page.content }}
+            {{ page.content }} {% endblock %}
         </div>
         <!-- body_0 -->
     </body>
