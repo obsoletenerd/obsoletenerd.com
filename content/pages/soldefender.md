@@ -13,4 +13,14 @@ This is a very early state for this game, with no music/sounds and a fair bit to
 
 #### Instructions
 
-Use the arrow keys to aim, button 1 to fire, and hold button 2 while using the arrows to fast-aim. Clear all the asteroids quickly (or more spawn) but if you hit a planet the universe explodes. Don't ask why, it's just how this universe works.
+Use the arrow keys to aim, button X on controller (X key on keyboard) to fire, and hold button O on controller (Z key on keyboard) while using the arrows to fast-aim.
+
+Clear all the asteroids quickly (or more spawn) but if you hit a planet the universe explodes. Don't ask why, it's just how this universe works.
+
+You get 10 seconds to shoot each asteroid, or another one spawns. Remaining time is added to your score as you go, for a total score at the end based on how fast you cleared them.
+
+#### Notes
+
+- No sound effects or music yet.
+- Rarely, an asteroid can spawn in a position you can't shoot it (eg against the edge of the screen with a planet in the way).
+- There's some ways to "cheat the system" and get lots of points. I wont put them here, but this note will remind me to patch it at some point.
