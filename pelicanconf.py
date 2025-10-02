@@ -3,7 +3,9 @@ SITENAME = 'ObsoleteNerd.com'
 SITEURL = "https://obsoletenerd.com"
 
 PATH = "content"
-THEME = "themes/nouveau"
+PAGE_PATHS = ["../pages"]
+
+THEME = "themes/obsoletenerd"
 TIMEZONE = 'Australia/Melbourne'
 
 DEFAULT_LANG = 'en'
@@ -22,7 +24,7 @@ LINKS = (
     ("@obsoletenerd (Printables)", "https://www.printables.com/@ObsoleteNerd", "3D printable objects by me"),
 )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 20
 
 from datetime import datetime, timedelta
 
