@@ -5,6 +5,9 @@ SITEURL = "https://obsoletenerd.com"
 PATH = "content"
 PAGE_PATHS = ["../pages"]
 
+STATIC_PATHS = ["games"]
+ARTICLE_EXCLUDES = ["games"]
+
 THEME = "themes/obsoletenerd"
 TIMEZONE = 'Australia/Melbourne'
 
