@@ -47,9 +47,13 @@ All things [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing). Yes, 
 
 [Infinite Mac](https://infinitemac.org) - Emulate classic Macintosh operating systems directly in your browser. Everything from the original System 1.0 release in 1984 up to 2005's Mac OSX Tiger when Spotlight was introduced and most people are familiar with from the see-through G3 bubble-iMacs at school.
 
+[v86 OS Emulator](https://copy.sh/v86/) - An incredible x86 PC emulator that emulates a huge amount of old (and new) OSes in the browser, by [converting machine code to WebAssembly](https://github.com/copy/v86) at runtime. A great way to play with different OSes without installing anything, though obviously limited to x86.
+
 [ClassicReload](https://classicreload.com) - Classic video games emulated in the browser, no installation of anything required. It doesn't have ever game ever, but it has lots of classics I personally grew up playing like [After Burner II](https://classicreload.com/dosx-after-burner-ii.html), [Prince of Persia](https://classicreload.com/prince-of-persia.html), [Wolfenstein 3D](https://classicreload.com/wolfenstein-3d.html), and [TMNT II](https://classicreload.com/teenage-mutant-ninja-turtles-ii-the-arcade-game.html)
 
 [The Oldschool PC Font Resource](https://int10h.org/oldschool-pc-fonts/) - The world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles - preserving raster typography from pre-GUI times.
+
+[Applesoft BASIC in Javascript](https://www.calormen.com/jsbasic/) - This is an awesome Applesoft BASIC emulator written in JS that runs on the web, great for kids (or nostalgic adults) to play with BASIC programming.
 
 <a id="personal-blogs"></a>
 ## Personal Blogs
