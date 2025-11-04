@@ -5,14 +5,14 @@ Title: Links
 
 In the spirit of the old-web, this is my curated directory of links to websites I find useful, interesting, or worth sharing. A lot of the websites here are personal sites/projects by individuals or small teams done for the love of it, or are websites that deserve more attention in this modern era of megacorps buying all the online attention.
 
-## Index
+## Categories
 
 - [Making & Hacking](#making-and-hacking)
 - [Retrocomputing](#retrocomputing)
 - [Personal Blogs](#personal-blogs)
 - [Old Websites Still Running](#old-websites)
-- [Interactive/Entertainment](#interactive-entertainment)
 - [Indexes & Directories](#indexes-and-directories)
+- [Interactive/Entertainment](#interactive-entertainment)
 - [Open Source Tools](#open-source-tools)
 
 <center><img src="/theme/images/baby.gif" /></center>
@@ -79,6 +79,24 @@ Interesting personal blogs from interesting individuals on interesting topics, o
 
 [Starship Titanic](https://starshiptitanic.com) - The original website for the Starship Titanic game made by Douglas Adams, of which I loved dearly and still own my original copy. Most of the downloadable assets (wallpapers, WAV files) now 404 but the page content is still there. The company behind it which was started/owned by Adams, called [The Digital Village](https://www.tdv.com), is also still online despite going defunct in 2001.
 
+[The Slightly Less Than Official Spork Homepage](https://spork.org) - Online since 1996 (and last updated then!), this homepage dedicated to the mighty Spork is the perfect example of the early web, a page made purely for the fun of it. I may or may not also unironically own and use a spork on more occasions than I should probably admit.
+
+[The San Francisco FogCam](https://www.fogcam.org) - The oldest continuously running webcam on the internet (though not [the first](https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot)), fogcam has been running since 1994 and lets students and staff check the fog levels at San Francisco State University.
+
+<a id="indexes-and-directories"></a>
+## Indexes & Directories
+
+Old-school web directories and curated lists made by people who want to share the best of the indie-web without the influence of algorithms and advertiser-funded bias.
+
+[Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
+
+[The Useless Web](https://theuselessweb.com) - Directory of extremely random web creations by individuals who submit their projects to the list, and then you can click to see a random project by someone. Basically an art experiment in front-end web design and user interaction.
+
+[Cameron's World](https://www.cameronsworld.net) - An epic trip down Geocities-era memory lane. Meticulously crafted anti-minimalism homepage made to look like a digital scrapbook of 90s GIFs and backgrounds, scattered with links to random archived Geocities homepages. Dig around, there's treasure galore.
+
+[Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
+
+[Ooh.Directory](https://ooh.directory) - A directory of 2,000+ blogs collated in the style of early Yahoo, completely with categories/sub-categories, search, and "go to a random blog" functions. A personal project of a single person.
 
 <a id="interactive-entertainment"></a>
 ## Interactive/Entertainment
@@ -104,21 +122,6 @@ These are websites designed to entertain, educate, or archive. The topics vary w
 [Apollo Lunar Surface Journal](https://www.nasa.gov/history/alsj/main.html) - An absolute gem of the early web, this is an *extremely* comprehensive collection of information about the Apollo Lunar Surface Journeys, including transcripts, photographs, and technical data, scanned trainined guides, audio recordings, and so much more. First published in 1995, this is such a valuable resource for space enthusiasts.
 
 [Higher Intellect](https://preterhuman.net) - Started in the late 1990s, Higher Intellect is a colossal collection of text files and PDFs on every topic imaginable. Data hoarding as a service-to-humanity. This is one of those websites you want stored on your NAS for when society collapses.
-
-<a id="indexes-and-directories"></a>
-## Indexes & Directories
-
-Old-school web directories and curated lists made by people who want to share the best of the indie-web without the influence of algorithms and advertiser-funded bias.
-
-[Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
-
-[The Useless Web](https://theuselessweb.com) - Directory of extremely random web creations by individuals who submit their projects to the list, and then you can click to see a random project by someone. Basically an art experiment in front-end web design and user interaction.
-
-[Cameron's World](https://www.cameronsworld.net) - An epic trip down Geocities-era memory lane. Meticulously crafted anti-minimalism homepage made to look like a digital scrapbook of 90s GIFs and backgrounds, scattered with links to random archived Geocities homepages. Dig around, there's treasure galore.
-
-[Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
-
-[Ooh.Directory](https://ooh.directory) - A directory of 2,000+ blogs collated in the style of early Yahoo, completely with categories/sub-categories, search, and "go to a random blog" functions. A personal project of a single person.
 
 <a id="open-source-tools"></a>
 ## Open Source Tools
