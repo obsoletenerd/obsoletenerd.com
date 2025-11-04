@@ -1,6 +1,7 @@
 ---
 Title: Binary Chords - The Binary-Chording 8% Mechanical Keyboard
 Date: 2025-11-01 13:48
+Modified: 2025-11-01 13:48
 Summary: After having used a 60% mechanical keyboard for a fair while now, some joking-around at the local hackerspace made us think about ways to go even smaller. There's plenty of "chording" mechanical keyboards out there using their own combinations of chording and layers to shrink smaller, but most are still 10-12 keys or so... we thought we could go smaller by going closer to the bare metal, and going binary.
 Category: Projects
 Tags: Hardware, 3DPrinting, Software, Projects
