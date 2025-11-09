@@ -14,29 +14,38 @@ Some joking around at my [local hackerspace](https://www.ballarathackerspace.org
 
 An 8% binary-chording mechanical keyboard.
 
-I had just recently finished a 1-weekend project building a [little binary clock](https://github.com/obsoletenerd/esp32-binary-clock) for my desk (post coming soon), so binary is on the mind a lot at the moment... and I also had some leftover switches lying around from a project I did with the kids. A couple hours later, I had a prototype running using a Raspberry Pi Pico W and the packaging that keyboard switches get delivered in:
+<div class="photo-row">
+  <div class="photo-row__text">
+    I had just recently finished a 1-weekend project building a [little binary clock](https://github.com/obsoletenerd/esp32-binary-clock) for my desk (post coming soon), so binary is on the mind a lot at the moment... and I also had some leftover switches lying around from a project I did with the kids. A couple hours later, I had a prototype running using a Raspberry Pi Pico W and the packaging that keyboard switches get delivered in.
+  </div>
+  <div class="photo-row__media">
+    <img alt="Binary Chords Prototype" src="{static}/images/2025-11-01-Binary-Chords-Prototype.jpg"><br />
+    <img alt="Binary Chords Prototype Wiring" src="{static}/images/2025-11-01-Binary-Chords-Prototype-Wiring.jpg">
+  </div>
+</div>
 
-<center>
-<img alt="Binary Chords Prototype" src="{static}/images/2025-11-01-Binary-Chords-Prototype.jpg" width="80%">
 
-<img alt="Binary Chords Prototype Wiring" src="{static}/images/2025-11-01-Binary-Chords-Prototype-Wiring.jpg" width="80%">
-</center>
+<div class="photo-row">
+  <div class="photo-row__text">
+    I took this into the hackerspace and it was actually more fun (and more usable) than expected, which prompted me to try turn it into more of a real thing.
 
-I took this into the hackerspace and it was actually more fun (and more usable) than expected, which prompted me to try turn it into more of a real thing.
+    I designed a new case in Fusion, then spent more time than I'd like to admit making pretty wiring that no one will ever see, and fixed up the code from the prototype with some feedback from people who used it. It's still very very basic code-wise, and only does the first 128 characters in the [ASCII table](https://www.ascii-code.com), a lot of which are control codes that aren't even recognised on modern systems. But it does work, and all the normal alphanumeric characters are there, plus basic punctuation, so you can actually type with it. The posts I put on [Bluesky](https://bsky.app/profile/obsolete.bsky.social/post/3m4mxhkuryk2j)/etc were typed using the keyboard itself.
+  </div>
+  <div class="photo-row__media">
+    <img alt="Binary Chords Case" src="{static}/images/2025-11-01-Binary-Chords-Case.jpg"><br />
+    <img alt="Binary Chords Wiring" src="{static}/images/2025-11-01-Binary-Chords-Wiring.jpg">
+  </div>
+</div>
 
-I designed a new case in Fusion, then spent more time than I'd like to admit making pretty wiring that no one will ever see, and fixed up the code from the prototype with some feedback from people who used it. It's still very very basic code-wise, and only does the first 128 characters in the [ASCII table](https://www.ascii-code.com), a lot of which are control codes that aren't even recognised on modern systems. But it does work, and all the normal alphanumeric characters are there, plus basic punctuation, so you can actually type with it. The posts I put on [Bluesky](https://bsky.app/profile/obsolete.bsky.social/post/3m4mxhkuryk2j)/etc were typed using the keyboard itself.
 
-<center>
-<img alt="Binary Chords Case" src="{static}/images/2025-11-01-Binary-Chords-Case.jpg" width="80%">
-
-<img alt="Binary Chords Wiring" src="{static}/images/2025-11-01-Binary-Chords-Wiring.jpg" width="80%">
-</center>
-
-I may have also gone a bit overboard with the joke after someone mentioned needing a typing tutor to now learn how to type in binary, so had Claude Code whip up a PyGame Guitar-Hero clone that has random letters falling down for you to type at just the right time...
-
-<center>
-<img alt="Binary Chords The Game" src="https://github.com/obsoletenerd/binary-chords/raw/main/BinaryChordsTheGame.png" width="80%">
-</center>
+<div class="photo-row">
+  <div class="photo-row__text">
+      I may have also gone a bit overboard with the joke after someone mentioned needing a typing tutor to now learn how to type in binary, so had Claude Code whip up a PyGame Guitar-Hero clone that has random letters falling down for you to type at just the right time.
+  </div>
+  <div class="photo-row__media">
+      <img alt="Binary Chords The Game" src="https://github.com/obsoletenerd/binary-chords/raw/main/BinaryChordsTheGame.png">
+  </div>
+</div>
 
 So yeah... that's 2 days of my life I'll never get back, but at least I kinda made something new in the keyboard scene that isn't just a fork-and-tweak of another project?
 
