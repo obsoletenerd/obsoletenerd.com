@@ -13,30 +13,6 @@
         {% endif %} {% if FEED_ALL_RSS %}
         <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Full RSS Feed" />
         {% endif %} {% endblock head %}
-
-        <style type="text/css">
-        /* I didn't want modern CSS at all, but large screens and mobile devices dictated at least a bit.. */
-        .photo-row {
-          display: grid;
-          grid-template-columns: 1fr minmax(220px, 40%);
-          column-gap: 1rem;
-          align-items: start;
-          margin: 1rem 0;
-        }
-        .photo-row__media img {
-          max-width: 100%;
-          height: auto;
-          display: block;
-        }
-        .photo-row__text > :first-child { margin-top: 0; }
-        .photo-row__text > :last-child { margin-bottom: 0; }
-        @media (max-width: 500px) {
-          .photo-row {
-            grid-template-columns: 1fr;
-            row-gap: 0.5rem;
-          }
-        }
-        </style>
     </head>
 
     <body bgcolor="#C0C0C0">
