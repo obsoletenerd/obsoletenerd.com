@@ -17,7 +17,7 @@ FEED_ALL_RSS = 'feeds/feed.rss.xml'
 # Blogroll
 LINKS = (
     ("Ballarat Hackerspace", "https://ballarathackerspace.org.au/", "Home away from home"),
-    ("Amateur Engineering", "https://amateurengineering.com.au/", "Hacker/Maker webring"),
+    ("Amateur Engineering", "https://amateurengineering.com/", "Hacker/Maker webring"),
     ("obsolete.bsky.social (Bluesky)", "https://bsky.app/profile/obsolete.bsky.social", "Occasional project pics"),
     ("@sen@hackerspace.au (Mastadon)", "https://hackerspace.au/@sen", "Similar to above"),
     ("@obsoletenerd (Github)", "https://github.com/obsoletenerd/", "Terrible terrible code"),
