@@ -8,10 +8,10 @@ In the spirit of the old-web, this is my curated directory of links to websites 
 ## Categories
 
 - [Making & Hacking](#making-and-hacking)
+- [Indieweb Directories](#indieweb-directories)
 - [Retrocomputing](#retrocomputing)
 - [Personal Blogs](#personal-blogs)
 - [Old Websites Still Running](#old-websites)
-- [Indexes & Directories](#indexes-and-directories)
 - [Interactive/Entertainment](#interactive-entertainment)
 - [Open Source Tools](#open-source-tools)
 
@@ -29,6 +29,26 @@ Websites devoted to the traditional meaning of the word [Hacker](https://en.wiki
 [Phrack](https://phrack.org) - Somehow still going after all these decades, and still posting a broad range of technical deep-dives into very random topics. Almost always over my head, but still a good read if only to learn random new stuff about things that will never be relevant to you.
 
 [PoC||GTFO](https://pocorgtfo.hacke.rs) - "International Journal of Proof of Concept or Get the Fuck Out" is "a friendly little journal for ladies and gentlemen of distinguished ability and taste in the field of computer security and the architecture of weird machines." Following the likes of Phrack or Uninformed but taking a pseudo-biblical approach to long-form computer-security essays. Another archived copy [here](https://github.com/angea/pocorgtfo).
+
+<a id="indieweb-directories"></a>
+## Indieweb Directories
+
+Old-school web directories and curated lists made by people who want to share the best of the indie-web without the influence of algorithms and advertiser-funded bias.
+
+[Bubbles.town](https://bubbles.town) - Bubbles is a personal blog index that presents blog posts in a Hacker News style format, with voting and comments but linking directly to the source blog to get more attention on individual bloggers.
+
+[Kagi Small Web](https://kagi.com/smallweb/) - Kagi Small Web will serve you a random post from a random blogger. Refresh the page for a new one (or use the control bar at the top). This has basically replaced reddit/etc for me when I'm bored and I have discovered lots of great writers.
+
+[Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
+
+[The Useless Web](https://theuselessweb.com) - Directory of extremely random web creations by individuals who submit their projects to the list, and then you can click to see a random project by someone. Basically an art experiment in front-end web design and user interaction.
+
+[Cameron's World](https://www.cameronsworld.net) - An epic trip down Geocities-era memory lane. Meticulously crafted anti-minimalism homepage made to look like a digital scrapbook of 90s GIFs and backgrounds, scattered with links to random archived Geocities homepages. Dig around, there's treasure galore.
+
+[Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
+
+[Ooh.Directory](https://ooh.directory) - A directory of 2,000+ blogs collated in the style of early Yahoo, completely with categories/sub-categories, search, and "go to a random blog" functions. A personal project of a single person.
+
 
 <a id="retrocomputing"></a>
 ## Retrocomputing
@@ -83,20 +103,6 @@ Interesting personal blogs from interesting individuals on interesting topics, o
 
 [The San Francisco FogCam](https://www.fogcam.org) - The oldest continuously running webcam on the internet (though not [the first](https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot)), fogcam has been running since 1994 and lets students and staff check the fog levels at San Francisco State University.
 
-<a id="indexes-and-directories"></a>
-## Indexes & Directories
-
-Old-school web directories and curated lists made by people who want to share the best of the indie-web without the influence of algorithms and advertiser-funded bias.
-
-[Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
-
-[The Useless Web](https://theuselessweb.com) - Directory of extremely random web creations by individuals who submit their projects to the list, and then you can click to see a random project by someone. Basically an art experiment in front-end web design and user interaction.
-
-[Cameron's World](https://www.cameronsworld.net) - An epic trip down Geocities-era memory lane. Meticulously crafted anti-minimalism homepage made to look like a digital scrapbook of 90s GIFs and backgrounds, scattered with links to random archived Geocities homepages. Dig around, there's treasure galore.
-
-[Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
-
-[Ooh.Directory](https://ooh.directory) - A directory of 2,000+ blogs collated in the style of early Yahoo, completely with categories/sub-categories, search, and "go to a random blog" functions. A personal project of a single person.
 
 <a id="interactive-entertainment"></a>
 ## Interactive/Entertainment
