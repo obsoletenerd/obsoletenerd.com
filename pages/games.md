@@ -17,6 +17,8 @@ Below are some games I've developed over the years. None of them are anything sp
 
 [Sol Defender](/pages/sol-defender/) is similar to the old Scorched Earth games where you aim projectiles that take trajectory/angle/gravity into account, but in this case your goal is to clear the solar system of the pesky asteroids. If you take too long to clear the asteroids, new ones keep being added. If you can clear 10 levels of increasing amounts of asteroids, you win a pat on the back (from yourself).
 
+[Lord Monkey](/pages/lord-monkey/) is a small PICO-8 game made by my daughter to learn how to program. You are a monkey, and bananas are falling onto the ground. You need to pick them all up before the spider eats you. A great example of how a tiny game with very little code can still be fun to play.
+
 
 ## Games not playable in the browser (yet?)
 
