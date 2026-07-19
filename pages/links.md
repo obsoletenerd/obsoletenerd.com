@@ -75,6 +75,11 @@ All things [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing). Yes, 
 
 [Applesoft BASIC in Javascript](https://www.calormen.com/jsbasic/) - This is an awesome Applesoft BASIC emulator written in JS that runs on the web, great for kids (or nostalgic adults) to play with BASIC programming.
 
+[Mermaid Elizabeth's MS Comic Chat Page](https://mermeliz.com/) - A still-updated page devoted to Microsoft Comic Chat, the greatest IRC client ever made. With the recent open-sourcing of Comic Chat there are people keeping it alive and functioning on computers and modern IRC servers.
+
+
+
+
 <a id="personal-blogs"></a>
 ## Personal Blogs
 
