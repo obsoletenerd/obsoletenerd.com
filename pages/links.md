@@ -87,6 +87,8 @@ Interesting personal blogs from interesting individuals on interesting topics, o
 
 [Bartosz Ciechanowski](https://ciechanow.ski) - A personal blog doing deep-dives on random topics from gears and watches to naval architecture and GPS. Each post is a meticulously hand-crafted adventure with incredible depth, detail, and interactive diagrams.
 
+[Fabien Sanglard](https://fabiensanglard.net) - Posts really interesting deep technical dives on a variety of random tech topics, from how SNES cartridges work to a breakdown on every single computer seen in the Jurassic Park movie and their related specs. I discovered this blog via the very handy [USB Cheat Sheet](https://fabiensanglard.net/usbcheat/index.html) that helps you quickly decode all the types of USB cables these days but the entire blog is definitely worth a read/follow.
+
 [Leonard David](https://www.leonarddavid.com) - Writing interesting articles about space for longer than I've been alive. Other than writing multiple physical books, he writes blog posts relentlessly on all things space-news-related.
 
 [Localghost](https://localghost.dev/) - Personal site of another web person who came up through the geocities trenches. I love the theme-switcher (top right) showing various old design trends, and especially enjoyed the [love letter to the personal website](https://localghost.dev/blog/this-page-is-under-construction/) blog entry.
