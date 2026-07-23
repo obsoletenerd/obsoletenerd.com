@@ -33,17 +33,23 @@ Websites devoted to the traditional meaning of the word [Hacker](https://en.wiki
 <a id="indieweb-directories"></a>
 ## Indieweb Directories
 
-Old-school web directories and curated lists made by people who want to share the best of the indie-web without the influence of algorithms and advertiser-funded bias.
-
-[Bubbles.town](https://bubbles.town) - Bubbles is a personal blog index that presents blog posts in a Hacker News style format, with voting and comments but linking directly to the source blog to get more attention on individual bloggers.
-
-[Kagi Small Web](https://kagi.com/smallweb/) - Kagi Small Web will serve you a random post from a random blogger. Refresh the page for a new one (or use the control bar at the top). This has basically replaced reddit/etc for me when I'm bored and I have discovered lots of great writers.
-
-[Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
+Directories and indexes of indieweb/retroweb/etc websites. Many an hour of interesting blogposts and human-made content is hidden among these directories. This is what us old first-gen web users did as our version of "doomscrolling"... digging through directories of personal websites looking for the nuggets of digital gold.
 
 [The Useless Web](https://theuselessweb.com) - Directory of extremely random web creations by individuals who submit their projects to the list, and then you can click to see a random project by someone. Basically an art experiment in front-end web design and user interaction.
 
+[TheOldNet WebRing](https://webring.theoldnet.com) - WebRing hosted by TheOldNet, 
+
 [Cameron's World](https://www.cameronsworld.net) - An epic trip down Geocities-era memory lane. Meticulously crafted anti-minimalism homepage made to look like a digital scrapbook of 90s GIFs and backgrounds, scattered with links to random archived Geocities homepages. Dig around, there's treasure galore.
+
+[Gossip's Web](https://gossipsweb.net) - A handmade directory of handmade websites. Like this links page but with orders of magnitude more content and better organisation.
+
+[Low Tech Webring Directory](https://emreed.net/LowTech_Directory) - An abandoned webring that still holds a good directory of indieweb/retroweb websites, most of which are still active themselves.
+
+[Bubbles.town](https://bubbles.town) - Bubbles is a personal blog index that presents blog posts in a Hacker News style format, with voting and comments but linking directly to the source blog to get more attention on individual bloggers.
+
+[XXIIVV Webring](https://webring.xxiivv.com) - Aimed at artists (digital and AFK art) and hand-crafted websites/wikis. 
+
+[Kagi Small Web](https://kagi.com/smallweb/) - Kagi Small Web will serve you a random post from a random blogger. Refresh the page for a new one (or use the control bar at the top). This has basically replaced reddit/etc for me when I'm bored and I have discovered lots of great writers.
 
 [Wiby](https://wiby.org) - Search engine for personal websites, focussing on oldweb/indieweb style hobbyist/fan pages. Click the "surprise me" button to get some examples.
 
