@@ -24,6 +24,8 @@ Websites devoted to the traditional meaning of the word [Hacker](https://en.wiki
 
 [Hackerspace.au](https://hackerspace.au/) - A Mastodon social instance run by the [Ballarat Hackerspace](https://ballarathackerspace.org.au) letting you connect to the fediverse.
 
+[PhreakNet](https://phreaknet.org) - an open telephony project with systems and information around land-line telephone networks and phreaking.
+
 [The Hacker Crackdown](https://www.mit.edu/hacker/hacker.html) - MIT has been hosting this digital copy of The Hacker Crackdown by Bruce Sterling for many decades. If you're into early computer culture this is basically one of the bibles.
 
 [Phrack](https://phrack.org) - Somehow still going after all these decades, and still posting a broad range of technical deep-dives into very random topics. Almost always over my head, but still a good read if only to learn random new stuff about things that will never be relevant to you.
